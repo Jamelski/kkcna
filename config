@@ -1,0 +1,6 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[remote "origin"]
+	url = https://Jamelski@github.com/Jamelski/kkcna.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

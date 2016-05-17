@@ -1,0 +1,12 @@
+name = KKCNA Theme
+description = KKCNA theme created by Jamel Lawson.
+core = 7.x
+
+stylesheets[all][] = css/style.css
+
+scripts[] = js/jquery-2.2.3.js
+scripts[] = js/scripts.js
+
+regions[page_top] = Page Top
+regions[content] = Content
+regions[page_bottom] = Page Bottom

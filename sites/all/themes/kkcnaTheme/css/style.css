@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	word-wrap:break-word;
+}
+
+html, body{
+	height:100%;	
+}
+
+#logo img{
+	margin-bottom:10px;
+}
+
+.title{
+	margin-top:0px;	
+}
+
+#page-wrapper{
+	background-image:url(../images/kkcna-homepage_03.png);
+	color:#ffffff;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+#secondary-menu{
+	position:fixed;		
+	right:0px;
+	z-index:100;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#site-name{
+	text-align:center;
+	font-size:24px;
+	margin-top:0px;
+}
+
+#site-name a{
+	color:#311a1a;	
+}
+
+#main-menu a{
+	color:#dd2f2a;
+	font-weight:700;	
+}
+
+#navigation{
+	margin-top:10px;
+	margin-bottom:15px;
+	text-align:center;
+}
+
+.slideshow-picture{
+	height:380px;
+	margin-right:15px;
+	overflow:hidden;
+}
+
+.home-tile{
+	height:200px;
+	background-color:#de302d;
+	text-align:center;
+	font-weight:700;
+	font-size:14px;
+	margin-top:20px;
+}
+
+.tile-description{
+	color:#ffffff;
+	margin-top:10px;	
+}
+
+.tile-button{
+	color:#259a53;
+	height:30px;
+	width:130px;
+	background-color:#ffffff;
+	border:3px #908fb3 solid;
+	border-radius:5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+
+.tile-button a{
+	color:#259a53;
+	text-decoration:none;
+	display:block;
+	height:30px;
+	width:130px;
+}
+
+.circle-base {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+.tile-circle {
+	margin-top:10px;
+    width: 100px;
+    height: 100px;
+    background-color:#ffffff;
+	display:inline-block;
+}
+
+.tile-picture{
+	height:65px;
+	width:63px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+	background-repeat:no-repeat;
+}
+
+#tile-picture-1{
+	background-image:url(../images/question-mark.png);
+}
+
+#tile-picture-2{
+	background-image:url(../images/calender.png);
+}
+
+#tile-picture-3{
+	background-image:url(../images/helping-hand.png);
+}
+
+#footer{
+	background-color:#eb7c2b;
+	color:#ffffff;
+	text-align:center;
+	font-weight:700;
+	padding-top:30px;
+	height: 4em;
+}
+
+.my-link{
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+
+.view-kkcna-events img{
+	width:100%;
+	height:50%;
+}
+
+.view-kkcna-events .views-row{
+	margin-bottom:15px;
+}
+
+.basic-page{
+	background-color:#dd2f2a;
+	padding:15px;
+	margin-bottom:15px;
+}
+
+.three-columns{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+	column-count:3;
+}
+
+.basic-page a{
+	color:#9EA5F5;
+}
+
+.views-field-field-member-picture{
+	margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    display: inline-block;
+	border-radius: 50%;
+    behavior: url(PIE.htc);
+	overflow:hidden;
+}
+
+.view-meet-us .views-row{
+	height:275px;
+	background-color:#de302d;
+	text-align:center;
+	font-weight:700;
+	font-size:14px;
+	margin-top:20px;
+}
+
+.view-meet-us .views-row .views-field-field-full-name{
+	color:#ffffff;
+}
+
+.views-field-field-position{
+	margin-top:5px;
+	color: #eb7c2b;
+}
+
+
+.contact-form label{
+	float:left;
+	clear:left;
+	display:block;
+}
+
+.contact-form input{
+	float:left;
+	clear:left;
+	width:50%;	
+	color:#000000;
+}
+
+.form-item-copy input{
+	clear: none;
+    width: 13px;
+	color:#000000;
+}
+
+.form-item-copy label{
+	clear: none;
+    margin-left: 5px;
+}
+
+#edit-message{
+	color:#000000;
+}
+
+#edit-submit{
+	width:25%;
+	color:#000000;
+	margin-bottom:15px;	
+}
+
+@media only screen and (max-width: 768px) {
+	.basic-page{
+		font-size:10px;	
+	}
+	
+	#page-wrapper{
+	color:#311a1a;
+	background-image:none;
+	background-color:#ffffff;
+}
+
+.three-columns{
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+	column-count:1;
+}
+
+.contact-form input{
+	width:100%;
+}
+
+.form-item-copy input{
+	clear: none;
+    width: 13px;
+}
+
+#edit-submit{
+	width:60%;
+}
+	#footer{
+		padding-top:15px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    #logo img{
+	width:100%;
+}
+	.basic-page{
+		text-align:justify;
+	}
+}
