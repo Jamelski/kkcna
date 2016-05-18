@@ -237,6 +237,10 @@ html, body{
 	margin-bottom:15px;	
 }
 
+.view-meet-us div.views-field.views-field-body{
+	display:none;
+}
+
 @media only screen and (max-width: 768px) {
 	.basic-page{
 		font-size:10px;	

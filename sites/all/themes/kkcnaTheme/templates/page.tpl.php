@@ -181,7 +181,7 @@
       
         <div id="footer">
           <div class="section">
-            <p>Copyright © 2012, Kuku Community of North America, Inc. | All Rights Reserved</p>
+            <p>Copyright © 2012, Kuku Community in North America, Inc. | All Rights Reserved</p>
           </div>
           <!-- /.section, /#footer --> 
         </div>

@@ -109,7 +109,7 @@
 
   <div class="row">
     
-  <div class="col-sm-4 col-md-3 col-lg-2">
+  <div class="col-sm-4 col-md-4 col-lg-offset-3 col-lg-2">
   	<div class="home-tile">
         <div class=" circle-base tile-circle centered"><div class="tile-picture" id="tile-picture-1"></div></div>
         <div class="tile-description">WHAT IS KCNA?</div>
@@ -117,7 +117,7 @@
     </div>
   </div>
   
-  <div class="col-sm-4 col-md-3 col-lg-2">
+  <div class="col-sm-4 col-md-4 col-lg-2">
   	<div class="home-tile">
         <div class="circle-base tile-circle"><div class="tile-picture" id="tile-picture-2"></div></div>
         <div class="tile-description">EVENTS</div>
@@ -125,7 +125,7 @@
     </div>
   </div>
   
-  <div class="col-sm-4 col-md-3 col-lg-2">
+  <div class="col-sm-4 col-md-4 col-lg-2">
   	<div class="home-tile">
         <div class="circle-base tile-circle"><div class="tile-picture" id="tile-picture-3"></div></div>
         <div class="tile-description">DONATE</div>
