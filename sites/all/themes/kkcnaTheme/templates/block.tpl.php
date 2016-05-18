@@ -46,7 +46,7 @@
  */
 ?>
 <?php $myVar = $_SERVER['REQUEST_URI'] ?>
-<?php if (strpos("user/login", $myVar) !== false){?>
+<?php if (strpos($myVar, "user/login") === false){?>
     <div class="container">
     <?php print $content ?>
     </div><!--end container-->
