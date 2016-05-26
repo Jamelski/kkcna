@@ -129,7 +129,7 @@
   	<div class="home-tile">
         <div class="circle-base tile-circle"><div class="tile-picture" id="tile-picture-3"></div></div>
         <div class="tile-description">DONATE</div>
-        <div class="tile-button"><a href="donate">LEARN MORE</a></div>
+        <div class="tile-button"><a href="donations">LEARN MORE</a></div>
     </div>
   </div>
 

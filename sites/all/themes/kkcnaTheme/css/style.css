@@ -241,6 +241,54 @@ html, body{
 	display:none;
 }
 
+.modal-content{
+	background-color:#eb7c2b !important;
+}
+
+.executive-modal{
+	cursor:pointer;
+}
+
+.modal-picture.custom-picture{
+	margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    display: block;
+	float:left;
+	margin-right:10px;
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    overflow: hidden;	
+}
+
+.modal-title.custom-title, .custom-position{
+	text-align: center;
+    float: right;
+    width: 62%;
+    margin-top: 15px;
+}
+
+.custom-position{
+	margin-top:0;
+	margin-bottom:15px;
+	color:#c73728;
+}
+
+.custom-description{
+	display:block;
+	float:right;
+	width:62%;
+	text-align:justify;
+}
+
+.modal-body.custom-body{
+		overflow:auto;	
+	}
+	
+	.other{
+		color:#000000;	
+	}
 @media only screen and (max-width: 768px) {
 	.basic-page{
 		font-size:10px;	
@@ -273,6 +321,29 @@ html, body{
 	#footer{
 		padding-top:15px;
 	}
+	
+	.modal-title.custom-title{
+		color:#ffffff;
+	}
+	
+	.modal-picture.custom-picture{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+	
+	.modal-title.custom-title, .custom-position{
+		float:none;
+		width:100%;
+	}
+	
+	.custom-description{
+		width:100%;
+		color:#ffffff;
+		font-size:13px;
+	}
+	
 }
 
 @media only screen and (max-width: 480px) {
@@ -282,5 +353,13 @@ html, body{
 }
 	.basic-page{
 		text-align:justify;
+	}
+	
+	.modal-title.custom-title{
+		float:left;
+	}
+	
+	.custom-description{
+		font-size:11px;
 	}
 }

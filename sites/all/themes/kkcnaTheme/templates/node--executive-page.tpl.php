@@ -96,12 +96,49 @@
 
 			<?php
               // We hide the comments and links now so that we can render them later.
-			  $mpnBlock = module_invoke('views', 'block_view', 'meet_us-block_1'); 
+			  $mpnBlock = module_invoke('views', 'block_view', 'meet_us-block_1');
 			  print render($mpnBlock['content']);
               hide($content['comments']);
               hide($content['links']);
-              
             ?>
+           
+            <script>
+			
+		
+			
+            $( ".executive-modal" ).click(function() {
+				var modalTitle = $(".views-field-field-full-name .field-content", this).html();
+				var modalPosition = $(".views-field-field-position .field-content", this).html();
+				var modalImage = $(".views-field-field-member-picture .field-content", this).html();
+				var modalDescription = $(".views-field-body .field-content", this).html();
+				
+				$(".modal-title").html(modalTitle);
+				$(".modal-picture").html(modalImage);
+				$(".custom-position").html(modalPosition);
+				$(".custom-description").html(modalDescription);
+				/*$(".modal-body").html(modalPosition + modalDescription);*/
+    			$('#myModal').modal('toggle');
+
+});
+</script>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body custom-body">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      	<div class="modal-picture custom-picture"></div>
+        <h4 class="modal-title custom-title" id="myModalLabel"></h4>
+        <div class="custom-position"></div>
+        <div class="custom-description"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     </div>
   </div>

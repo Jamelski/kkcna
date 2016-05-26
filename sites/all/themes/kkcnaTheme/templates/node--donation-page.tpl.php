@@ -101,6 +101,7 @@
               hide($content['comments']);
               hide($content['links']);
 			   print render($content);
+			   echo("Donate with PayPal:");
 			   print render($mpnBlock['content']); 
             ?>
         </div>
